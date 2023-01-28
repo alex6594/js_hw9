@@ -67,7 +67,7 @@ class Autocomplete {
     this.list.innerHTML = html.join('');
   }
 
-  getMatches( text ) {
+  getMatches() {
     /*
       TODO: этот метод нужно дописать
       text - фраза, которую вводят в поле поиска

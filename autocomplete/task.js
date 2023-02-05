@@ -67,7 +67,7 @@ class Autocomplete {
     this.list.innerHTML = html.join('');
   }
 
-  getMatches() {
+  getMatches(text) {
     /*
       TODO: этот метод нужно дописать
       text - фраза, которую вводят в поле поиска
@@ -81,7 +81,7 @@ class Autocomplete {
       }
     */
 
-    let inputPhr = document.querySelector('input.autocomplete__search').value;
+    let inputPhr = text;
     console.log(inputPhr);
 
     let optionsArr = this.input.options;
